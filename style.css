@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*
+{
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body
+{
+    background-color:rgba(49, 47, 47, 0.636);;
+    scroll-behavior: smooth;
+}
+
+
+
+.hero-img
+{
+    background-image: url("./assets/background.jpg");
+    height: 300px;
+    background-size: cover;
+    background-position:20% 60%;
+} 
+
+.hero-txt
+{
+    text-align: center;
+    color: rgb(230, 217, 213);
+}
+
+.hero-img h1
+{
+    font-size:70px;
+    padding-top: 70px;
+    padding-left:20p
+}
+
+.hero-img p
+{
+    position: relative;
+    font-size: 22px;
+    padding-right: 105px;
+}
+
+.menu-section
+{
+    color:rgb(230, 217, 213);
+    text-decoration: underline;
+    text-align:center;
+    padding-top:30px;
+}
+
+.menu-images
+{
+    padding-top:30px;
+    padding-bottom:30px;
+    display:flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 800px) {
+    .menu-images {
+      flex-direction: column;
+    }
+
+    figure
+    {
+        margin-bottom:22px;
+        margin-left: 20px;
+        margin-right:20px;
+    }
+  }
+.menu-images img
+{
+    height:180px;
+    padding-bottom:20px;
+}
+
+.menu-images a
+{
+    text-decoration: none;
+    color:white;
+}
+
+hr
+{
+    height: 3px;
+    border:none;
+    background-color: #18191a;
+}
+
+figure
+{
+    background-color: #6c6e70;
+    border-radius: 25px;
+    padding:20px;
+}
+
+.menu-title
+{
+    text-decoration: underline;
+    text-align:center;
+    padding-top:30px;
+}
+
+.menu-drinks
+{
+    padding-top:40px;
+}
+
+.about{
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400px;
+    margin: 100px 10px ;
+    padding:5px;
+    color:rgb(237, 226, 226);
+    font-size:25px;
+    text-align: center;
+}
+
+/*.split
+{   
+
+    height:100%;
+    width:100%;
+    padding-top:20px;
+    postition:
+    font-size:15px;
+    text-align:center;
+    color: rgb(230, 217, 213);
+}
+
+div.left{
+
+    left:0;
+   float :left;
+   background-color:rgba(0, 0, 0, 0.923);
+
+}
+
+div.right{
+
+    right:0;
+   float : right;
+   background-color:rgba(189, 47, 47, 0.923);
+} */
+
+footer{
+
+    width:100%;
+    position: absolute;
+   
+    background: linear-gradient(to right,#00093c, #2d0b00);
+    color: #fff;
+    font-size:15px;
+    padding: 100px 0px;
+    line-height: 25px;
+    
+
+   
+}
+
+.row{
+
+    width :85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content :  space-around;
+    
+
+}
+
+
+.col1 {
+    
+
+    flex: basics 25%;
+    order: 1;
+}
+
+.email{
+
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+    

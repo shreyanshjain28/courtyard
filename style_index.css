@@ -1,0 +1,122 @@
+Body {  
+    
+    font-family: Calibri, Helvetica, sans-serif;  
+    background-image: url("./assets/indexphoto3.jpg");
+    background-color:rgba(210, 180, 142, 0.573);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply ;
+    
+  }  
+  
+
+.logo_image{
+  
+  
+    max-width: 500px;
+    margin: 30px;
+    border-radius: 50%;
+    object-fit: cover; 
+    object-position : center top;
+    
+
+}
+ 
+button {   
+          background-color: #272e8e;
+          border-radius: 7px;  
+          width: 100%;  
+          color: rgb(184, 212, 190);   
+          padding: 12px;   
+          margin: 10px 0px;   
+          border: none;   
+          cursor: pointer;
+          border-color : rgb(186, 224, 186);
+          transition : opacity 0.30s;
+          font-weight:bold;
+         
+      }   
+  
+  form {   
+
+          border-radius : 10px; 
+          width :auto ;
+          padding: 50px;
+          max-width: 500px;
+          margin: 100px auto;
+          border-radius: 5px;
+      } 
+  
+   input{   
+          width: 100%;   
+          margin: 8px 0;  
+          padding: 12px 20px;   
+          display: inline-block;   
+          border: 2px solid rgb(1, 1, 20);   
+          box-sizing: border-box;
+          font-size:15px;
+      }  
+   
+  button:hover {   
+          opacity: 0.7;;
+          color : rgb(255, 255, 255);
+            
+      }
+  
+    .cancelbtn {   
+          width: auto;   
+          padding: 10px 18px;  
+          margin: 1s0px 5px;  
+      }   
+          
+       
+   .container { 
+
+
+          /*display: flex;
+          justify-content: flex-end;
+          flex-direction: column;
+          float: right; */
+        
+          color:rgb(90, 13, 87);
+          font-weight: bold;
+          font-size:20px;
+          margin: 0;
+          padding: 25px;   
+          background-color: rgba(240, 240, 235, 0.8);
+          border-radius : 30px;
+          float: left;
+        }
+  
+   .heading{
+  
+      
+      font-family: Luminari;
+      padding: 0 0 20px 0;
+      font-weight: bolder;
+      font-size:15px;
+      text-align: center;
+     
+  }
+  
+  .select{
+    
+    background-color: lightgrey;
+    color:black;
+    height:30px;
+    margin: 0 20px;
+    transition: font-size 0.10s;
+  }
+
+  .link {
+
+    color:white;
+    font-weight:1000;
+  }
+
+  .link:hover {
+
+    font-size: 20px; 
+  }
+  
+
