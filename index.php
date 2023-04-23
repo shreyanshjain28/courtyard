@@ -15,6 +15,7 @@
     else{}
 
 ?>
+
     
             <!DOCTYPE html>   
             <html>   
@@ -26,6 +27,12 @@
                 <link rel="stylesheet" href="style_index.css">
             </head>    
             <body>
+
+            <header>
+                    
+                    <?php include './common/header.php';?>
+            
+            </header>
             
             
             
@@ -53,7 +60,7 @@
                     </div>
                     
                     <button type="submit" id="btn">Login</button> 
-                    <button type="button" onclick="document.location=\'signuppage.php\'">SIGN UP</button>
+                    <button type="button" onclick="document.location='signuppage.php'">SIGN UP</button>
 
                     <button type="reset" class="cancelbtn"> Cancel</button>
                 

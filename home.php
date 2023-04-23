@@ -29,11 +29,11 @@
            
             <body>
             
-                <header>
+          
                     
                         <?php include './common/header.php';?>
                 
-                </header>
+               
             
                 <main>
 
@@ -43,11 +43,11 @@
                         <h1>COURTYARD</h1>
                         <p>The best taste in town</p>
                     </div>
-                </div>
+                </div> 
 
 
 
-                <div class="about">
+                <div class="about_section">
                     <p>Courtyard is a contemporary restaurant with a serene outdoor seating area, located in the heart of the city. Our menu offers a variety of dishes made from the freshest ingredients. Our friendly staff provides exceptional service to create a warm and inviting atmosphere. Come visit us for a memorable dining experience.</p>
                     <p>At Courtyard, we believe in providing exceptional service to our guests. Our staff is friendly, knowledgeable, and always ready to assist you in making your dining experience a memorable one</p>
                     <p>Whether you're looking for a quick lunch, a leisurely dinner, or a private event, Courtyard has everything you need to make your experience unforgettable. Come and visit us today and discover why we are one of the best restaurants in town.</p>
@@ -131,7 +131,10 @@
                             <p class="email">courtyardacc17@gmail.com</p>
                             <p>+(1) 452-478-4889</p>
                             <p>@copyright to secret coder licenced 2023</p>
-                            
+                            <p>opening hours<p>
+                                <ul>
+                                    <li>MONDAY - FRIDAY [ 4PM TO 10 PM ]</li>
+                                    <li>SAT - SUN [ 4PM TO 12 PM ]</li>
                             <ul>
                                 <li>instagram</li>
                                 <li>TikTok</li>

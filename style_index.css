@@ -1,5 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 Body {  
-    
+
+
+    font-family: "Montserrat", sans-serif;
     font-family: Calibri, Helvetica, sans-serif;  
     background-image: url("./assets/indexphoto3.jpg");
     background-color:rgba(210, 180, 142, 0.573);
@@ -97,8 +102,7 @@ button {
       font-size:15px;
       text-align: center;
      
-  }
-  
+  } 
   .select{
     
     background-color: lightgrey;

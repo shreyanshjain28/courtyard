@@ -20,13 +20,20 @@
 </head>    
 <body>    
     
-
-    <?php include './common/header.php' ?>
+            <header>
+                    
+                    <?php include './common/header.php';?>
+            
+            </header>
+    
 
     <form action="forget_process.php" method="POST">  
-        <div class="container">   
-            <div class="header">
-                <h1 text-align="center"> FORGOT PASSWORD</h1>        
+        <div class="container">
+
+            
+            
+            <div class="heading">
+                <h1> New Passoword </h1>
             </div>
 
             <div>

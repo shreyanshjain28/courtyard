@@ -1,0 +1,25 @@
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .order_section{
+
+    flex: 1;
+    margin : 10 10 20 10;
+   
+  }
+  
+  .checkout_section{
+    flex: 0 0 20%; /* shorthand for flex-grow: 0, flex-shrink: 0, flex-basis: 30% */
+    margin: 10 0 10 10;
+    
+  }
+  
+
+h1{
+    color:rgb(66, 47, 127);
+}
+
