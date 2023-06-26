@@ -2,17 +2,20 @@
 <link rel = "stylesheet" href = ".\common\headercss.css">
     <header class = "header" >
 
+
+
         <div class= "section">
             
-            <img src="./assets/menu_logo2.jpg" title="main_logo">
-            
-            <nav  class="nav_links">
+          <nav  class="nav_links">
 
+
+          
                 <ul>
-                    <li><a href="home.php"> HOME </a> </button></li>
-                    <li><a href="review_page.php"> Review </a> </button></li>
-                    <li><a href="reservations.php"> Reservation </a> </button></li>
-                    <li><a href="logout.php"> Logout </a> </button></li>
+                    <li><a href="home.php"> HOME </a></li>
+                    <li><a href="review_page.php"> Review </a></li>
+                    <li><a href="reservations.php"> Reservation </a></li>
+                    <li><a href="logout.php"> Logout </a></li>
+                    <li><a href="menu.php"> Menu </a></li>
                     
                 </ul>
                 

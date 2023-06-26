@@ -24,7 +24,14 @@
                 <meta http-equiv="X-UA-Compatible" content="IE=edge">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <title>HOME</title>
+                
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+                
                 <link rel = "stylesheet" href = "style.css">
+
+                
+
             </head>
            
             <body>
@@ -32,10 +39,8 @@
           
                     
                         <?php include './common/header.php';?>
-                
-               
             
-                <main>
+                <main> 
 
 
                 <div class = "hero-img">
@@ -54,68 +59,41 @@
                 </div>
 
 
-                <menu>
-                    <div class = "menu-section">
-                        <div class ="menu-fastfood">
-                            <h1>Main Menu</h1>
-                            <div class = "menu-images">
-                                <figure>
-                                    <a href = "" >
-                                        <img src = "./assets/burger.png" title="burger">
-                                        <b><figcaption>Burger</figcaption></b>
-                                    </a>
-                                </figure>
-            
-                                <figure>
-                                    <figure>
-                                        <a href = "" >
-                                            <img src = "./assets/pizza.png"/ title="pizza">
-                                        <b><figcaption>Pizza</figcaption></b>
-                                        </a>
-                                    </figure>
+
+                <section class= "hero">
+                        <div class = "swiper hero-slider">
+                            <div class= "swiper-wrapper">
+                                
+                                <div class = "swiper-slide slide">
                                     
-                                </figure>
-            
-                                <figure>
-                                    <a href = "" >
-                                        <img src = "./assets/fries.png"/ title="fries">
-                                        <b><figcaption>Fries</figcaption></b>
-                                    </a>
-                                </figure>
-                            </div>
-                        </div>
-                        <hr>
-            
-                        <div class ="menu-drinks">
-                            <h1>Drinks</h1>
-                            <div class = "menu-images">
-                                <figure>
-                                    <a href = "" >
-                                        <img src = "./assets/coke.png"/ title="coke">
-                                        <b><figcaption>Coke</figcaption></b>
-                                    </a>
-                                </figure>
-            
-                                <figure>
-                                    <figure>
-                                        <a href = "" >
-                                            <img src = "./assets/fanta.png"/ title="fanta">
-                                            <b><figcaption>Fanta</figcaption></b>
-                                        </a>
-                                    </figure>
+                                       <img src="./assets/amb1 rest.jpg" alt="">
+                        
+                                </div>
+
+                                <div class = "swiper-slide slide">
                                     
-                                </figure>
-            
-                                <figure>
-                                    <a href = "" >
-                                        <img src = "./assets/sprite.png"/ title="sprite">
-                                        <b><figcaption>Sprite</figcaption></b>
-                                    </a>
-                                </figure>
+                                        <img  src="./assets/amb2.jpg" alt="">
+                        
+                                </div>
+
+                                <div class = "swiper-slide slide">
+                                    
+                                        <img  src="./assets/amb5.jpg" alt="">
+                        
+                                </div>
                             </div>
+                            
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
                         </div>
-                    </div>
-                    </menu>
+                    </section>
+
+                <div>
+                    <button>CHECK OUT MENU</button> 
+                </div>
+
+                
                 </main>
             
                 <footer>
@@ -127,19 +105,25 @@
                         
                         
                             <p>Address :-</p>
-                            <p> College Street,<br>Toronto, ON</p>
+                            <p>22  College Street,<br>Toronto, ON</p>
                             <p class="email">courtyardacc17@gmail.com</p>
                             <p>+(1) 452-478-4889</p>
-                            <p>@copyright to secret coder licenced 2023</p>
-                            <p>opening hours<p>
+                            <p>@secret coder licenced 2023 | All Rights Reserved</p>
+                            <br>
+                            <p>opening hours</p>
                                 <ul>
                                     <li>MONDAY - FRIDAY [ 4PM TO 10 PM ]</li>
                                     <li>SAT - SUN [ 4PM TO 12 PM ]</li>
-                            <ul>
-                                <li>instagram</li>
-                                <li>TikTok</li>
-                                <li>Facebook</li>
-                            </ul>
+                                </ul>
+
+                            </br>
+                            <h><b>FOLLOW US ~</b><h>
+
+                            <div class="social">
+                                <a href=""><img src="./assets/facebook.png"/ alt="facebook"></a></li>
+                                <a href=""><img src="./assets/instagram.png"/ alt="insta"></a></li>
+                                <a href=""><img src="./assets/youtube.png"/ alt="snapchat"></a></li>
+                            </div>
 
                         </div>
 
@@ -153,6 +137,23 @@
                     </div>
                 </footer>
 
+                <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+                
+                <script>
+                    var swiper = new Swiper(".hero-slider", {
+                        loop: true,
+                        effect: "flip",
+                        grabCursor: true,
+                        pagination: {
+                            el: ".swiper-pagination",
+                            clickable: true,
+                        },
+                        navigation: {
+                            nextEl: ".swiper-button-next",
+                            prevEl: ".swiper-button-prev",
+                        },
+                        });         
+                </script>
             </body>
             </html>
     

@@ -31,8 +31,8 @@
             <div class="container">
                 
                 <div class="heading">
-                    <h1 style="font-family:Luminari"> <b> CUSTOMER REVIEW </b></h1>
-                    <h2>! Thank you for your time !</h2>
+                    <h1> <b> CUSTOMER REVIEW </b></h1>
+                  
                 </div>
                 
                 <div>
@@ -70,13 +70,6 @@
                 <br>
                 
                 <div>
-                <label >Would you like to recommend us to others</label><br><br>
-                <input class="radio" type="radio" name="radio" class="larger" value="yes" checked >Definitely<br>
-                <input class="radio" type="radio" name="radio" class="larger" value="no" >No<br>
-                <input class="radio" type="radio" name="radio" class="larger" value="maybe" > Maybe<br>
-                </div>
-                <br>
-                <div>
                 <label for="category">What fascinated you the most?</label><br><br>
                 </div>
 
@@ -89,6 +82,15 @@
                 </div>	
             
                 <div>
+                <label >Would you like to recommend us to others</label><br><br>
+                <input class="radio" type="radio" name="radio" class="larger" value="yes" checked >Definitely<br>
+                <input class="radio" type="radio" name="radio" class="larger" value="no" >No<br>
+                <input class="radio" type="radio" name="radio" class="larger" value="maybe" > Maybe<br>
+                </div>
+                <br><br>
+
+
+                <div>
                 <label id="head2">Give your valuable feedback :-</label><br>
                 </div>
             
@@ -96,8 +98,11 @@
                 <textarea name="comments" maxlength="" wrap="hard" required placeholder="ENTER YOU COMMENTS HERE"></textarea>
                 </div>
 
-                <button type="submit">Submit</button>		
-                <button type="reset">Reset</button>
+                
+                
+
+                <button class ="button" type="submit">Submit</button>		
+                <button class = "button" type="reset">Reset</button>
             </div>
         </form>
     </body>

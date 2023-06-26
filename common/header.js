@@ -18,10 +18,10 @@ menuBtn.onclick = () => {
 };      */
 
 
-const profile = document.querySelector('.profile');
-const profile_btn = document.querySelector('.profile_btn');
+const profile = document.querySelector('.header .section .profile');
 
-profile_btn.onclick = () => {
+
+document.querySelector('.profile_btn').onclick = () => {
     console.log("button was clicked");
     profile.classList.toggle('active');
     

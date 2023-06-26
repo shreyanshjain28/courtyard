@@ -1,13 +1,30 @@
+html{
+ 
+    font-size: 100%;
+    box-sizing : border-box;
+    overflow-x :hidden;
+    scroll-behavior: smooth;       /* overflow ?*/
+
+}
+
 
 .heading{
 
+  
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     
-    font-weight: bold;
-    color:rgb(18, 100, 58);
+   
 }
 
+div.heading > h1 {
+
+    font-family:Luminari;
+    font-size: 40px;
+    color:rgb(228, 190, 37);
+   
+
+}
 
 body {  
       
@@ -16,82 +33,83 @@ body {
 }  
 
 .button {   
-         background-color: #272e8e;
-         border-radius: 7px;  
-          width: 100%;  
-          color: rgb(255, 251, 0);   
-          padding: 10px;   
-          margin: 10px 0px;   
-          border: none;   
-          cursor: pointer;   
-      }
+    background-color: #272e8e;
+    border-radius: 7px;  
+    width: 100%;  
+    color: rgb(255, 251, 0);   
+    padding: 10px;   
+    margin: 10px 0px;   
+    border: none;   
+    cursor: pointer;   
+}
       
 .button:hover {   
-        opacity: 0.7;
-        font-size: 20px;
-    }
+    opacity: 0.7;
+    font-size: 20px;
+}
 
 .cancelbtn {   
-        width: auto;   
-        padding: 10px 18px;  
-        margin: 10px 5px;  
+    width: auto;   
+    padding: 10px 18px;  
+    margin: 10px 5px;  
 
 }   
   
 
 form {   
      
-        border-radius : 10px; 
-          width :auto ;
-          padding: 50px;
-          max-width: 650px;
-          margin: 100px auto;
-          border-radius: 5px;
+    border-radius : 10px; 
+    width :auto ;
+    padding: 50px;
+    max-width: 650px;
+    margin:  auto;
+    border-radius: 5px;
     
-      }
+}
+
+.container {   
+    padding: 20px;
+    height: auto;
+    background-color: #746c15;
+    border-radius : 15px; 
+}
  
   
 input{   
     
-    width: 100%;   
+    width: 100%;  
     margin: 10px 0;  
-    padding: 15px 20px;   
+    padding: 13px 20px;   
     display: inline-block;   
-    border: 1px solid rgb(1, 1, 20);   
+    border: 1px solid rgb(0, 0, 0);   
     box-sizing: border-box;
     font-size : 15px;
-     
-
+ 
+    
 }
 
 label{
 
     font-family:Palatino, URW Palladio L, serif;
     margin: 5px 0;
-    font-weight: bold;
+    font-weight:550;
     font-size : 20px;
+    color:rgb(0, 0, 0);
  }
 
-   
-
-          
        
-   .container {   
-          padding: 20px;   
-          background-color: #746c15;
-          border-radius : 15px; 
-      }
+
   
-  .heading{
+.heading{
   
       font-family: 'Courier New', Courier, monospace;
       padding: 0 0 20px 0;
       font-weight: bold;
       color: rgb(255, 255, 255);
-  }
+}
 
   .radio{
-        margin : 5px;
+            margin : 5px;
   }
   
   .select{
@@ -111,3 +129,22 @@ div textarea{
     padding: 5px;
 }
   
+
+
+
+
+@media (max-width:720px){
+    
+    html{
+
+        font-size: 50%;
+        
+    }
+
+    div.heading , div.heading >  h1 {
+
+        font-size: 4vh;
+       
+    }
+
+}
